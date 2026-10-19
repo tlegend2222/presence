@@ -1,0 +1,10 @@
+# Netlify build for Presence. Nitro's netlify preset (selected in vite.config.ts
+# when NETLIFY=true) writes static files to dist/ and the SSR/server-function
+# handler to .netlify/functions-internal/server.
+[build]
+  command = "npm run build"
+  publish = "dist"
+
+[build.environment]
+  NODE_VERSION = "20"
+  NITRO_PRESET = "netlify"
