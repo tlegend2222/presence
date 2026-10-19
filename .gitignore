@@ -1,0 +1,14 @@
+node_modules
+dist
+.output
+.vercel
+tmp
+screenshots
+.grok/skills
+.grok/references
+.grok/status
+.grok/og-pending
+*.log
+
+# Local Netlify folder
+.netlify
